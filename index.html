@@ -1,0 +1,134 @@
+
+<html>
+<head>
+<style>
+body{
+	margin: 0;
+  background-color: lavender;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 25%;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+li a.active {
+  background-color:slategray;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+div.gallery {
+  margin: 5px;
+  border: 5px solid black;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid black;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+table{
+  padding-left: 200px;
+}
+td{
+  padding-left: 70px;
+  padding-top:40px ;
+}
+
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a class="active" href="file:///C:/Users/prave/Desktop/katy%20hack/home.html">Home</a></li>
+  <li><a href="news">News</a></li>
+  <li><a href="contact">Contact</a></li>
+  <li><a href="about">About</a></li>
+  <li></li><br>
+  <li style="text-align: center;"> <form action="login.html"><input type="image" src="login.png" alt="Submit" width="100" height="100"></form></li>
+</ul>
+
+<div style="margin-left:25%;padding:1px 16px;height:1000px;position:center ;" >
+
+  <h1 style="text-align: center; margin: 0px;"><img src="h.png" width="250" height="100"></h1>
+
+  <div class="login">
+    
+  </div>
+
+  <table style="text-align: center;">
+    <tr>
+      <td style="text-align: center; "><div class="gallery">
+  <a target="_blank" href="hospital.html">
+    <img src="health.png" alt="health" width="600" height="400">
+  </a>
+  <div class="desc">HEALTH</div>
+</div></td>
+      <td>
+        <div class="gallery">
+  <a target="_blank" href="food.html">
+    <img src="food.png" alt="food" width="600" height="400">
+  </a>
+  <div class="desc">FOOD</div>
+</div>
+      </td>
+    </tr>
+
+    <tr>
+      <td><div class="gallery">
+  <a target="_blank" href="education.html">
+    <img src="edu.jpeg" alt="Education" width="600" height="400">
+  </a>
+  <div class="desc">EDUCATION</div>
+</div></td>
+
+      <td><div class="gallery">
+  <a target="_blank" href="emp.html">
+    <img src="job.jpg" alt="job" width="600" height="400">
+  </a>
+  <div class="desc">EMPLOYMENT</div>
+</div></td>
+    </tr>
+
+  </table>
+
+
+
+
+
+
+
+
+</div>
+
+</body>
+</html>
